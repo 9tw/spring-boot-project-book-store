@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" xmlns:th="https://www.thymeleaf.com">
   <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
@@ -23,14 +23,14 @@
                 <a class="nav-link active" aria-current="page" href="#">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Library</a>
+                <a class="nav-link" href="library">Library</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">My Book</a>
+                <a class="nav-link" href="my_book">My Book</a>
               </li>
             </ul>
             <div>
-                <button type="button" class="btn btn-success btn-sm">Add New Book</button>
+                <button type="button" class="btn btn-success btn-sm"><a href="add_book" style="text-decoration:none; color:white;">Add New Book</a></button>
             </div>
           </div>
         </div>
