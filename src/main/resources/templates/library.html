@@ -56,7 +56,7 @@
             <td>
               <a class="btn btn-secondary btn-sm" th:href="@{/mylist/{id}(id=${b.id})}">Borrow</a>
               <a class="btn btn-warning btn-sm" th:href="@{/editBook/{id}(id=${b.id})}">Edit</a>
-              <a class="btn btn-danger btn-sm">Delete</a>
+              <a class="btn btn-danger btn-sm" th:href="@{/deleteBook/{id}(id=${b.id})}">Delete</a>
             </td>
           </tr>
         </tbody>
